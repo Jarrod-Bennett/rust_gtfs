@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+/db/
+/misc/
+/gtfs-server/gtfs_files/
