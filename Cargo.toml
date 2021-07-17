@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "gtfs-locator",
+    "gtfs-server",
+]

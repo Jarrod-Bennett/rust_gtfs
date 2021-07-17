@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/gtfs_reader/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/seq_gtfs_departure_board/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/seq_transit_locator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gtfs-locator/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gtfs-locator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simple-gtfs-departure-board/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/simple-gtfs-departure-board-server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gtfs-server/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

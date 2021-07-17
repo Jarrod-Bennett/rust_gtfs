@@ -1,0 +1,3 @@
+// Must have option to specify some options if others not provided, like if the expected time isn't provided (because
+// the vehicle gtfs connection/data is faulty), then return scheduled time instead.
+

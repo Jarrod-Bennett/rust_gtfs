@@ -1,0 +1,33 @@
+[package]
+authors = ["Jarrod Bennett"]
+edition = "2018"
+name = "gtfs-locator"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.7.2"
+cortex-m-rt = { version = "0.6.13", features = ["device"] }
+stm32f3xx-hal = { version = "0.7.0", features = ["ld", "rt", "stm32f303xc"] }
+panic-semihosting = "0.5.6"
+embedded-hal = "0.2.5"
+hd44780-lcd = { path = "../../hd44780-lcd" }
+#embedded-hal_alpha = "=1.0.0-alpha.4"
+rotary-encoder-hal = "0.3.0"
+
+[dependencies.embedded-hal-alpha]
+version = "=1.0.0-alpha.4"
+package = "embedded-hal"
+
+[features]
+#hal-alpha = []
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "gtfs-locator"
+test = false
+bench = false
+
+[profile.release]
+codegen-units = 1 # better optimizations
+debug = true # symbols are nice and they don't increase the size on Flash
+lto = true # better optimizations
